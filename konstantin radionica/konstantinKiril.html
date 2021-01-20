@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Konstantin Radionica</title>
+        <link rel="icon" type="image/png" href="materijal/konstantinFavicon.png">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="konstantin.css">
+        <script src="konstantin.js"></script> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="languages-holder" >
+                <img src="materijal/world.png" onclick="touchScreen()">
+                <a href="konstantin.html" class="hidden-language" id="cir">Latinica</a>
+                <a href="konstantinEN.html" class="hidden-language" id="eng">English</a>
+                
+            </div>
+            <div class="logo-holder">
+                <img alt="logo" src="materijal/konstantinLogoKir.png">
+            </div>
+            <nav>
+                <div class="nav-holder">
+                    <a href="#about">О нама</a>
+                    <a href="#gallery">Галерија</a>
+                    <a href="#services">Услуге</a>
+                    <a href="#video">Видео</a>
+                    <a href="#contact">Контакт</a>
+                </div>
+            </nav>
+        </header>
+        <segment>
+            <div class="slogan">
+                <h1>Поправка лимених дувачких инструмената</h1>
+            </div>
+            <h2 id="about">О нама</h2>
+            <div class="text-holder">
+                
+                <p>
+                    <strong>Константин радионица</strong> нуди професионални сервис лимених 
+                    дувачких инструмената. Било да Вам је потребна генерална поправка трубе 
+                    или сервисирање тубе, стојимо Вам на располагању. 
+                <P>
+                    Битно нам је да су наши клијенти задовољни. 
+                    Сматрамо да је „<i>добро урађен посао најбоља препорука</i>“.
+                </P>
+                </p>
+                <p>
+                    Смештени смо у Београду, а послујемо са клијентима широм Балкана. 
+                </p>
+                <P>
+                    Отворени смо за сва питања, обратите нам се путем мејла. Савет је бесплатан!
+                </P>
+            </div>
+        </segment >
+            <h2 id="gallery">Галерија</h2>
+            <div class="before">ПРЕ</div>
+                <div class="gallery">
+                            
+                    <button class="prev" onclick="plusSlides(-1)" >&#10094;</button>
+                    <button class="next" onclick="plusSlides(1)">&#10095;</button>
+                    
+                        <div class="slide-holder fade">
+                            <div class="slide-horizontal">   
+                                <img src="materijal/pre-posle/truba1pre.png" class="img-horizontal">
+                                <img src="materijal/pre-posle/truba1posle.png" class="img-horizontal">
+                            </div>
+                        </div>
+                        <div class="slide-holder fade">
+                            <div class="slide-horizontal"> 
+                                <img src="materijal/pre-posle/truba2pre.png" class="img-horizontal">
+                                <img src="materijal/pre-posle/truba2posle.png" class="img-horizontal">
+                            </div>
+                        </div>
+                        <div class="slide-holder fade">
+                            <div class="slide-horizontal"> 
+                                <img src="materijal/pre-posle/truba3pre.png" class="img-horizontal">
+                                <img src="materijal/pre-posle/truba3posle.png" class="img-horizontal">
+                            </div>
+                        </div>
+                        <div class="slide-holder fade">
+                            <div class="slide-horizontal"> 
+                                <img src="materijal/pre-posle/truba4pre.png" class="img-horizontal">
+                                <img src="materijal/pre-posle/truba4posle.png" class="img-horizontal">
+                            </div>
+                        </div>
+                        <div class="slide-holder fade">
+                            <div class="slide-vertical"> 
+                                <img src="materijal/pre-posle/truba6pre.png" class="img-vertical">
+                                <img src="materijal/pre-posle/truba6posle.png" class="img-vertical">
+                            </div>
+                        </div>
+                        <div class="slide-holder fade">
+                            <div class="slide-3img"> 
+                                <img src="materijal/pre-posle/truba8pre1.png" class="slike8">
+                                <img src="materijal/pre-posle/truba8pre2.png" class="slike8">
+                                <img src="materijal/pre-posle/truba8posle.png" class="img-horizontal">
+                            </div>
+                        </div>
+                
+            </div>
+            <div class="after">ПОСЛЕ</div>
+        <segment>
+            <h2 id="services">Услуге</h2>
+            <div class="text-holder">
+                
+                <ul>
+                    <li>
+                        Хемијска обрада инструмената (уклањање каменца и нечистоћа)
+                    </li>
+                    <li>
+                        Ултрасонично и механичко чишћење
+                    </li>
+                    <li>
+                        Полирање
+                    </li>
+                    <li>
+                        Замена опруга, гумица, плуга, филцева
+                    </li>
+                    <li>
+                        Уградња недостајућих делова
+                    </li>
+                    <li>
+                        Летовање
+                    </li>
+                    <li>
+                        Исправљање улегнућа
+                    </li>
+                </ul>
+            </div>
+        </segment>
+        <segment id="video">
+            <h2>Видео</h2>
+            <div class="video-holder">
+                <div class="wrapper">
+                    <iframe src="https://www.youtube.com/embed/0KWeGIGlD94"  
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </segment>
+        <segment>
+            <h2>Контакт</h2>
+            <div class="text-holder" id="contact">
+                <p>
+                    Радионица је смештена у Београду, али пружамо услуге широм Балкана.
+                </p>
+                <p>
+                    За увек тачну понуду посетите нашу <span><a href="https://www.instagram.com/konstantin_radionica/">инстаграм страницу.</a></span>
+                </p>
+                <p>
+                    Још детаља о радионици можете наћи и на нашем <span><a href="https://www.youtube.com/user/TheKoja90">youtube каналу.</a></span>
+                </p>
+                <P>
+                    За додатне информације контактирајте нас на:<br> <span><a href="mailto: ksotirovski@gmail.com">ksotirovski@gmail.com</a></span><br>
+                    или нас позовите на:<br> <span><a href="tel:00381693196999">00381693196999</a></span>
+                </P>
+            </div>
+        </segment>
+        <footer>
+            <div class="logo-holder">
+                <img alt="logo" src="materijal/konstantinLogoKirWhite.png">
+            </div>
+        </footer>
+        <script>
+            showSlides(slideIndex);
+            lang();
+            window.addEventListener('resize', lang)
+        </script>
+    </body>
+</html>
